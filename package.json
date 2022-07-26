@@ -1,0 +1,25 @@
+{
+    "name": "pilcom-vscode",
+    "displayName": "pilcom-vscode",
+    "description": "Pil Language Support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pil",
+            "aliases": ["pil", "pil"],
+            "extensions": [".pil"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pil",
+            "scopeName": "source.pil",
+            "path": "./syntaxes/pil.tmLanguage.json"
+        }]
+    }
+}
