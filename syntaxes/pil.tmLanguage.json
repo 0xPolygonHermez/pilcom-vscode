@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.pol.pil",
-				"match": "\\b(pol|commit|constant|in|public)\\b"
+				"match": "\\b(pol|commit|constant|in|is|public)\\b"
 			},
 			{
 				"name": "keyword.types.pil",
@@ -60,18 +60,18 @@
 				{
 					"match": "\\/\\/.*n?",
 					"name": "comment.line.pil"
-				}                                
+				}
 			]
 		},
 		"numbers": {
             "patterns": [ {
-                    "match": "([0-9][0-9_]*)",
+                    "match": "([0-9][0-9_]*n?)",
                     "name": "constant.numeric.decimal.pil"
                 },
                 {
-                    "match": "(0x[0-9A-Fa-f][0-9A-Fa-f_]*)",
+                    "match": "(0x[0-9A-Fa-f][0-9A-Fa-f_]*n?)",
                     "name": "constant.numeric.hexadecimal.pil"
-                }                
+                }
             ]
 		},
 		"operators": {
@@ -85,7 +85,7 @@
 					"name": "keyword.operator.pil"
 				}
 			]
-		},        
+		},
         "include": {
             "patterns": [{
                 "name": "meta.preprocessor.include.pil",
