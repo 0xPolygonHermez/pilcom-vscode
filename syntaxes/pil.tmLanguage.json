@@ -28,23 +28,23 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.col.pil",
-				"match": "\\b(global|col|witness|fixed|public|prover|stage|challenge|constant|args|last|first|not)\\b"
+				"match": "\\b(private|col|witness|fixed|public\\s+table|public|proof\\s+value|subproof\\s+value|air\\s+value|aggregate|instance|stage|challenge|constant|args|last|first|frame|not)\\b"
 			},
 			{
 				"name": "keyword.types.pil",
-				"match": "\\b(fe|integer|string|expr)\\b"
+				"match": "\\b(fe|int|string|expr)\\b"
 			},
 			{
 				"name": "keyword.block.pil",
-				"match": "\\b(namespace|subproof|aggregable)\\b"
+				"match": "\\b(namespace)\\b"
 			},
             {
 				"name": "keyword.function.pil",
-				"match": "\\b(function|return|returns)\\b"
+				"match": "\\b(function|return)\\b"
 			},
             {
 				"name": "keyword.control.pil",
-				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when)\\b"
+				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|air|proof|subproof|on|scope|global|persistent)\\b"
 			}]
 		},
 		"strings": {
