@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.col.pil",
-				"match": "\\b(private|col|witness|fixed|public\\s+table|public|proof\\s+value|subproof\\s+value|air\\s+value|aggregate|instance|stage|challenge|constant|args|last|first|frame|not)\\b"
+				"match": "\\b(private|col|witness|fixed|publictable|public|proofval|subproofval|aggregate|instance|stage|challenge|constant|args|last|first|frame|not|alias|use)\\b"
 			},
 			{
 				"name": "keyword.types.pil",
@@ -44,7 +44,7 @@
 			},
             {
 				"name": "keyword.control.pil",
-				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|air|proof|subproof|on|scope|global|persistent)\\b"
+				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|air|proof|subproof|on)\\b"
 			}]
 		},
 		"strings": {
