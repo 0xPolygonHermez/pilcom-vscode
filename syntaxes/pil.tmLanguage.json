@@ -28,15 +28,11 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.col.pil",
-				"match": "\\b(private|col|witness|fixed|publictable|public|proofval|subproofval|aggregate|instance|stage|challenge|constant|args|last|first|frame|not|alias|use)\\b"
+				"match": "\\b(private|const|col|witness|fixed|publictable|public|proofval|subproofval|aggregate|instance|stage|challenge|constant|args|last|first|frame|not|alias|use)\\b"
 			},
 			{
 				"name": "keyword.types.pil",
 				"match": "\\b(fe|int|string|expr)\\b"
-			},
-			{
-				"name": "keyword.block.pil",
-				"match": "\\b(container)\\b"
 			},
             {
 				"name": "keyword.function.pil",
@@ -44,7 +40,7 @@
 			},
             {
 				"name": "keyword.control.pil",
-				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|air|proof|subproof|on)\\b"
+				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|container|air|proof|subproof|on)\\b"
 			}]
 		},
 		"strings": {
