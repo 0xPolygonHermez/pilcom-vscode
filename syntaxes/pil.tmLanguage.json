@@ -21,6 +21,9 @@
 			"include": "#include"
 		},
 		{
+			"include": "#pragma"
+		},
+		{
 			"include": "#identifiers"
 		}
 	],
@@ -121,6 +124,14 @@
                 "name": "meta.preprocessor.include.pil",
                 "match": "\\b(include)\\b\\s*\"[^\"]+\""
             }]
+        },
+        "pragma": {
+			"patterns": [
+				{
+					"match": "#pragma.*",
+					"name": "pragma.line.pil"
+				}
+			]
         },
 		"identifiers": {
 			"patterns": [{
