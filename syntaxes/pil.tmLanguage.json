@@ -122,7 +122,7 @@
         "include": {
             "patterns": [{
                 "name": "meta.preprocessor.include.pil",
-                "match": "\\b(include)\\b\\s*\"[^\"]+\""
+                "match": "\\b(include|require)\\b\\s*\"[^\"]+\""
             }]
         },
         "pragma": {
