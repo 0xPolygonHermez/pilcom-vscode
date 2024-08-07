@@ -43,7 +43,7 @@
 			},
             {
 				"name": "keyword.control.pil",
-				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|when|once|final|container|air|proof|airgroup|airtemplate|on)\\b"
+				"match": "\\b(if|else|for|in|while|do|break|continue|switch|case|default|when|once|final|container|air|proof|airgroup|airtemplate|on)\\b"
 			}]
 		},
 		"strings": {
