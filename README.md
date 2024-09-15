@@ -2,7 +2,13 @@
 Syntax highlight for `pil` language
 
 ## Usage
-To use this extension copy full repositiry into `<user home>/.vscode/extensions` folder and restart Visual Studio Code.
+To use this extension copy full repository into `<user home>/.vscode/extensions` folder and run the extension development host (F5).
+
+Or install extension:
+
+```
+code --install-extension pilcom-vscode-0.0.2.vsix
+```
 
 # Generate Visual Code Plugin
 Install vsce package
